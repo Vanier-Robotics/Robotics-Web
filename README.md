@@ -7,7 +7,7 @@ If you have been added to this repository, it is because you have expressed part
 ## Underlying Technologies
 This website will be built using Gatsby-CLI, a **JSX framework** designed for lightweight, resposive, scalable and easily deployable websites. Developing on this platform requires base knowledge of **HTML5 and CSS3**. JavaScript is optional but **heavily recommended**, as Gatsby uses some of its syntax in code formatting.
 
-Documentation for Gatsby, which includes tutorials and code snippets is accessible by [clicking here] [clicking here]: https://www.gatsbyjs.org/docs/
+Documentation for Gatsby, which includes tutorials and code snippets is accessible by [clicking here](https://www.gatsbyjs.org/docs/)
 
 We are also using Github (Git) for our code management and deployment, as it helps all of us keep track of who does what and when it was done. Please familiarize yourself with the interface,as you will be using it a lot during the development process. 
 
