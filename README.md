@@ -51,6 +51,7 @@ Below are some ressources that you can use to learn how to code in HTML5 & CSS3,
 Once you have installed all of the above packages, you can begin the process of setting up the repository locally for development work.
 
 To do so, there are 2 methods: using Git, or GitHub Desktop. 
+
 **WARNING**: ONCE YOU START WITH ONE OF THE METHODS, YOU ARE STUCK WITH IT AND CANNOT SWITCH UNLESS YOU CLONE THE REPOSITORY AGAIN. The reason for that is that GitHub Desktop will fail to detect your cloned repository most of the time, asking you to create a new repository instead of detecting the existing one. To avoid complications, **USE ONE OR THE OTHER. DO NOT SWITCH.**
 
 ### Using Git
