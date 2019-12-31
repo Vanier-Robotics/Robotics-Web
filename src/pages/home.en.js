@@ -7,7 +7,7 @@ import Layout from '../components/layout'
 {/*import Main from '../components/Main'*/}
 {/*import Footer from '../components/Footer'*/}
 
-{/*const HomePage = () => (
+const HomePage = () => (
     <div class="nav">
         <Layout>
         <p>This is a test element to make sure everything works!</p>
@@ -15,7 +15,7 @@ import Layout from '../components/layout'
         <Link to='/'>Go back to the homepage</Link>
     </Layout>
     </div>
-)*/}
+)
 
 const Header = (props) => (
     <nav>
@@ -94,4 +94,4 @@ Header.propTypes = {
     timeout: PropTypes.bool
 }
 
-export default Header
+export default HomePage
