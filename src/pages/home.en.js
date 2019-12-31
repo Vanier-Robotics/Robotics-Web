@@ -3,11 +3,13 @@ import React from 'react'
 import { Link } from 'gatsby'
 import pic01 from '../images/pic01.jpg'
 import Layout from '../components/layout'
+import Button from 'gatsby'
 
 {/*import Main from '../components/Main'*/}
 {/*import Footer from '../components/Footer'*/}
 
 const HomePage = () => (
+    <div>
     <div class="nav">
         <Layout>
         <p>This is a test element to make sure everything works!</p>
@@ -15,14 +17,19 @@ const HomePage = () => (
         <Link to='/'>Go back to the homepage</Link>
     </Layout>
     </div>
-)
-
-const Header = (props) => (
-    <nav>
-            <ul>
-                <li><a href="javascript:;" onClick={() => {props.onOpenArticle('work')}}>Work</a></li>
-            </ul>
-            </nav>
+    <div 
+    ref={this.props.setWrapperRef}
+    class="header"
+    style={this.props.timeout ? { display: 'flex' }: { display: 'none' }}
+    >
+      <nav>
+        <Button>Test Button</Button>
+        <ul>
+          <li><a href="javascript:;" onClick={() => {props.onOpenArticle('work')}}>Work</a></li>
+        </ul>
+      </nav>
+    </div>
+    </div>
 )
 
 class Main extends React.Component {
@@ -89,7 +96,7 @@ Main.propTypes = {
   setWrapperRef: PropTypes.func.isRequired,
 }
 
-Header.propTypes = {
+HomePage.propTypes = {
     onOpenArticle: PropTypes.func,
     timeout: PropTypes.bool
 }
