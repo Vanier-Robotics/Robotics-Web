@@ -9,7 +9,6 @@ import Button from 'gatsby'
 {/*import Footer from '../components/Footer'*/}
 
 const HomePage = () => (
-    <div>
     <div class="nav">
         <Layout>
         <p>This is a test element to make sure everything works!</p>
@@ -17,19 +16,14 @@ const HomePage = () => (
         <Link to='/'>Go back to the homepage</Link>
     </Layout>
     </div>
-    <div 
-    ref={this.props.setWrapperRef}
-    class="header"
-    style={this.props.timeout ? { display: 'flex' }: { display: 'none' }}
-    >
-      <nav>
-        <Button>Test Button</Button>
-        <ul>
-          <li><a href="javascript:;" onClick={() => {props.onOpenArticle('work')}}>Work</a></li>
-        </ul>
-      </nav>
-    </div>
-    </div>
+)
+
+const Header = (props) => (
+  <nav>
+          <ul>
+              <li><a href="javascript:;" onClick={() => {props.onOpenArticle('work')}}>Work</a></li>
+          </ul>
+          </nav>
 )
 
 class Main extends React.Component {
