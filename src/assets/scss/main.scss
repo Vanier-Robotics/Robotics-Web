@@ -51,19 +51,38 @@
 // Nav.
 
 .nav {
-	width: 15em;
-	float: left;
+	width: 0%;
 	background-color: #00ff22;
 	font-family: 'Oswald', sans-serif;
 	font-size: 20px;
   }
 
-.div2 {
-	height: 80%;
-	border-radius: 35px;
-	margin-left: 20em;	 
-	margin-bottom: 3em;
-	margin-top: 3em;
-	margin-right: 6em;
-	background-color: #ff0000; 
-  }
+svg {
+	display: block;
+}
+
+#sign0:hover {
+	filter: brightness(130%)
+}
+#sign1:hover {
+	filter: brightness(130%)
+}
+#sign2:hover {
+	filter: brightness(130%)
+}
+#sign3:hover {
+	filter: brightness(130%)
+}
+#sign4:hover {
+	filter: brightness(130%)
+}
+#sign5:hover {
+	filter: brightness(130%)
+}
+#sign6:hover {
+	filter: brightness(130%)
+}
+#sign7:hover {
+	filter: brightness(130%)
+}
+
