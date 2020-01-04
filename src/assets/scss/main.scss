@@ -48,18 +48,12 @@
 	@import 'layout/main';
 	@import 'layout/footer';
 
-// Nav.
-
-.nav {
-	width: 0%;
-	background-color: #00ff22;
-	font-family: 'Oswald', sans-serif;
-	font-size: 20px;
-  }
-
-svg {
-	display: block;
+#layout {
+	display: flex;
+	overflow: hidden;
 }
+
+// Nav.
 
 #sign0:hover {
 	filter: brightness(130%)
@@ -86,3 +80,14 @@ svg {
 	filter: brightness(130%)
 }
 
+// Info
+
+#info {
+	flex-grow: 1;
+	text-align: center;
+}
+
+iframe {
+	width:100%;
+	height: 100%;
+}
