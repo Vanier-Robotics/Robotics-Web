@@ -2,7 +2,7 @@ import PropTypes from 'prop-types'
 import React from 'react'
 //import { Link } from 'gatsby'
 import pic01 from '../images/pic01.jpg'
-import Layout from '../components/layout'
+//import Layout from '../components/layout'
 //import Button from 'gatsby'
 
 {/*import Main from '../components/Main'*/}
@@ -10,15 +10,15 @@ import Layout from '../components/layout'
 
 
 
-const HomePage = () =>  (
-<div>
+const HomePage = () => (
+<div id = "layout">
   <div id="nav">    
        <script type = "text/javascript" src = "lamppost.js" ></script>
   </div>
   
 <div id="info" >
-
-
+<iframe id="iframe" 
+src="/en/vanierStreet" ></iframe>
 </div>
   </div>
 )

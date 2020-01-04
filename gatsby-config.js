@@ -21,7 +21,11 @@ module.exports = {
       options: {
         langKeyDefault: 'en',
         useLangKeyLayout: false
-      }
+      },
+      resolve: `gatsby-transformer-remark`,
+    options: {
+      plugins: [`gatsby-remark-responsive-iframe`],
+    },
     },
     'gatsby-plugin-sass',
     'gatsby-plugin-offline'
