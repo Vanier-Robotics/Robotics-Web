@@ -54,11 +54,20 @@ function scaling () {
  }
 } else {
     try{
-        lamp.style.width = w - 320 + "px"
-        nav.style.width = w - 320 + "px"
-        lamp.style.height = (w - 320) * 2.714074 + "px"
-        nav.style.height = (w - 320) * 2.714074 + "px"
-        nav.style.marginTop =  h -  lamp.style.height + "px"
+       
+        if(((w - 320) * 2.714074) > h) {
+            lamp.style.height = h + "px"
+            lamp.style.width = h * 0.36845 + "px"
+            nav.style.height = h + "px"
+            nav.style.width = h * 0.36845 + "px"
+            nav.style.marginTop =  "0"
+        } else {
+            lamp.style.width = w - 320 + "px"
+            nav.style.width = w - 320 + "px"
+            lamp.style.height = (w - 320) * 2.714074 + "px"
+            nav.style.height = (w - 320) * 2.714074 + "px"
+            nav.style.marginTop =  (h - ((w - 320) * 2.714074)) + "px"
+        }
     } catch(err) {}
 }
 
