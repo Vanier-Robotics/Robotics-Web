@@ -38,20 +38,31 @@ signs[x].onclick = function(){
 
 
 function scaling () {
- try {
-     let lamp = document.getElementById("svg3947")
-     let nav = document.getElementById("nav");
-     lamp.style.height = window.innerHeight + "px"
-     lamp.style.width = window.innerHeight * 0.36845 + "px"
-     nav.style.height = window.innerHeight + "px"
-     nav.style.width = window.innerHeight * 0.36845 + "px"
+    let h = window.innerHeight;
+    let w = window.innerWidth;
+    let lamp = document.getElementById("svg3947")
+    let nav = document.getElementById("nav");
+ if(w > 593.39) { try {
+     lamp.style.height = h + "px"
+     lamp.style.width = h * 0.36845 + "px"
+     nav.style.height = h + "px"
+     nav.style.width = h * 0.36845 + "px"
+     nav.style.position = "";
+     nav.style.marginTop = "0"
 }
  catch(err) {
-     console.log(err);
  }
+} else {
+    try{
+        lamp.style.width = w - 320 + "px"
+        nav.style.width = w - 320 + "px"
+        lamp.style.height = (w - 320) * 2.714074 + "px"
+        nav.style.height = (w - 320) * 2.714074 + "px"
+        nav.style.marginTop =  h -  lamp.style.height + "px"
+    } catch(err) {}
+}
 
-
-  }
+}
     
 function tabClicked(x) {
     console.log(x + " was clicked")
