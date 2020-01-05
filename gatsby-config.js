@@ -22,7 +22,8 @@ module.exports = {
         langKeyDefault: 'en',
         useLangKeyLayout: false
       },
-      resolve: `gatsby-transformer-remark`,
+      
+     // resolve: `gatsby-transformer-remark`,   It won't develop otherwise
     options: {
       plugins: [`gatsby-remark-responsive-iframe`],
     },
