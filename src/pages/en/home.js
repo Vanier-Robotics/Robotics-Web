@@ -14,7 +14,6 @@ src="/en/vanierStreet" ></iframe>
   </div>
 )
   
-
 HomePage.propTypes = {
     onOpenArticle: PropTypes.func,
     timeout: PropTypes.bool
