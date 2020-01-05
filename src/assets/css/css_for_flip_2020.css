@@ -1,0 +1,32 @@
+
+	body,html {
+    margin:0;
+    background-color: bisque;
+	color: white;
+	}
+	
+		.parallax_eff {
+		height: 100%;
+		background-attachment: fixed;
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+		margin-left: 300px;
+		
+		}
+		.tab_style {
+		background-color: transparent;
+		padding: 15px 10px;
+		border: 5px solid black;
+		background-color: black;
+		margin-left: 300px;
+		}
+		.lamppost{
+
+		}
+		/*#div1{background-image: url("https://cmkt-image-prd.freetls.fastly.net/0.1.0/ps/4903859/910/910/m2/fpnw/wm1/olsgukjxevl5mjzeztrkqw7t3e011yffycsfjnm60ljosojepcncbsgyzedkqcsq-.jpg?1534247248&s=469a92c25d5566a6681149b6c09d22f8");}
+		*/
+		#div2{background-image : url("https://images.pexels.com/photos/459225/pexels-photo-459225.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500")}
+		#div3{background-image : url("https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/mocking-spongebob-1556133078.jpg")}
+		#div4{background-image : url("https://static01.nyt.com/images/2018/05/03/us/03spongebob_xp/03spongebob_xp-articleLarge.jpg?quality=75&auto=webp&disable=upscale")}
+		#div5{background-image : url("")}
