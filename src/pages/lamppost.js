@@ -33,50 +33,32 @@ try{ for(let x = 0; x < 8; x++) {
 signs[x].onclick = function(){
     info.src = "/en/" + options[x]
     console.log(options[x] + " was chosen")
-} } } catch(err) {console.log(err)}
-
-}
-
+} } } catch(err) { console.log(err) } }
 
 function scaling () {
     let h = window.innerHeight;
     let w = window.innerWidth;
     let lamp = document.getElementById("svg3947")
     let nav = document.getElementById("nav");
- if(w > 593.39) { try {
+
+ if(w > 593.39 || ((w - 320) * 2.5197153) > h) { try {
      lamp.style.height = h + "px"
      lamp.style.width = h * 0.39687 + "px"
      nav.style.height = h + "px"
      nav.style.width = h * 0.39687 + "px"
      nav.style.position = "";
      nav.style.marginTop = "0"
-}
- catch(err) {
- }
-} else {
-    try{
-       
-        if(((w - 320) * 2.5197153) > h) {
-            lamp.style.height = h + "px"
-            lamp.style.width = h * 0.39687 + "px"
-            nav.style.height = h + "px"
-            nav.style.width = h * 0.39687 + "px"
-            nav.style.marginTop =  "0"
-        } else {
+} catch(err) {
+    
+ }} else {
+    try{   
             lamp.style.width = w - 320 + "px"
             nav.style.width = w - 320 + "px"
             lamp.style.height = (w - 320) * 2.5197153 + "px"
             nav.style.height = (w - 320) * 2.5197153 + "px"
-            nav.style.marginTop =  (h - ((w - 320) * 2.5197153)) + "px"
-        }
+            nav.style.marginTop =  (h - ((w - 320) * 2.5197153)) + "px"   
     } catch(err) {}
-}
-
-}
-    
-function tabClicked(x) {
-    console.log(x + " was clicked")
-}
+}}
 
 setTimeout(time, 300);
 setInterval(scaling, 30);
