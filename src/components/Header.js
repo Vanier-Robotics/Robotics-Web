@@ -1,5 +1,5 @@
 import React from 'react'
-import wooden_c2 from '../images/wooden_c2.png'
+import wooden_c2 from '../images/wooden_c2.jpg'
 import F32 from '../images/F32.png'
 import E23 from '../images/E23.png'
 import crc1 from '../images/crc1.png'
