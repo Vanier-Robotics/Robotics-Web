@@ -1,31 +1,50 @@
 import React from 'react'
-import PropTypes from 'prop-types'
+import wooden_c2 from '../images/wooden_c2.png'
+import F32 from '../images/F32.png'
+import E23 from '../images/E23.png'
+import crc1 from '../images/crc1.png'
 
-const Header = (props) => (
-    <header id="header" style={props.timeout ? {display: 'none'} : {}}>
-        <div className="logo">
-            <span className="icon fa-diamond"></span>
-        </div>
-        <div className="content">
-            <div className="inner">
-                <h1>Vanier Robotics 2019</h1>
-                <p>Please select a language</p>
+const FirstPage = () => (
+    <div>
+        <body>
+        <section>
+            <nav>
+                <ul>
+                    <li><a class="tooltip" href="">
+                        <img src={F32} alt=""></img>
+                        <span id="fr-text">
+                            Français
+                        </span>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+            <div>
+                <img src={wooden_c2} alt="Welcome to Vanier Robotics 2020"></img>
+                <nav>
+                    <ul>
+                        <li><a class="tooltip" href="">
+                            <img src={E23} alt=""></img>
+                                <span id="en-text">
+                                    English
+                                </span>
+                            
+                        </a>
+                        </li>
+                    </ul>
+                </nav>
             </div>
-        </div>
-        <nav>
-            <ul>
-                <li><a href="/en/home" onClick={() => {props.onOpenArticle('intro')}}>English</a></li>
-                <li><a href="/fr/home" onClick={() => {props.onOpenArticle('work')}}>Français</a></li>
-                {/*<li><a href="javascript:;" onClick={() => {props.onOpenArticle('about')}}>About</a></li>
-                <li><a href="javascript:;" onClick={() => {props.onOpenArticle('contact')}}>Contact</a></li>*/}
-            </ul>
-        </nav>
-    </header>
+        </section>
+        </body>
+        <footer>
+            <a href="https://robo-crc.ca" target="_blank" data-toggle="tooltip" data-placement="top" title="Visit CRC's website for more information!">
+                <img src={crc1} alt="CRC">
+                </img>
+            </a>
+        </footer>
+        <script>
+        </script>
+    </div>
 )
 
-Header.propTypes = {
-    onOpenArticle: PropTypes.func,
-    timeout: PropTypes.bool
-}
-
-export default Header
+export default FirstPage
