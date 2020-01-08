@@ -5,35 +5,33 @@ import E23 from '../images/E23.png'
 import crc1 from '../images/crc1.png'
 
 const FirstPage = () => (
+  <div id="main1">
+      <div id="bg"></div>
   <div id="base">
           <div id="fr" class="block">
-             <a class="tooltip" href="/fr">
+             <a class="tooltip" href="/fr/home">
                       <img src={F32} alt="French box selector" class="image"></img>
-                      <span id="fr-text">Français</span>
+                      <p id="fr-text">Français</p>
                       </a>
                 
           </div>
           <div id="wood" class="block">
-              <img src={wooden_c2} alt="Welcome to Vanier Robotics 2020" class="image"></img> 
+              <img src={wooden_c2} alt="Welcome to Vanier Robotics 2020" class="image" id="image"></img> 
           </div>
           <div id="en" class="block">
-                <a class="tooltip" href="/en">
+                <a class="tooltip" href="/en/home">
                           <img src={E23} alt="English box selector" class="image"></img>
-                              <span id="en-text">English</span></a>
+                              <p id="en-text">English</p></a>
      
               </div>
-
-
-      <footer>
-          <a href="https://robo-crc.ca" target="_blank" data-toggle="tooltip" data-placement="top" title="Visit CRC's website for more information!">
-              <img src={crc1} alt="CRC">
-              </img>
-          </a>
-      </footer>
-      <script>
-      </script>
-  
   </div>
+   <footer>
+   <a href="https://robo-crc.ca" target="_blank" data-toggle="tooltip" data-placement="top" title="Visit CRC's website for more information!">
+       <img src={crc1} alt="CRC" id="CRC">
+       </img>
+   </a>
+</footer>
+</div>
 )
 
 export default FirstPage
