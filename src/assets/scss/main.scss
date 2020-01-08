@@ -49,12 +49,22 @@
 	@import 'layout/footer';
 
 // Landing Page 
+img {
+	width:10px;
+	height:10px;
+}
+html, body {
+	background-image: url("/images/bg.jpg");
+	background-repeat: no-repeat;
+	image-resolution:inherit;
+	background-clip: content-box;
+	background-position:top;
+}
 
 body {
 	background-color: rgba(255,255,255,0.01);
 	font-family: Arial, Helvetica, sans-serif;
 	color: black;
-	padding: 20px;
 	
 	background-repeat: no-repeat;
 	image-resolution: inherit;
@@ -63,44 +73,14 @@ body {
 	background-position: top;
 	text-align: top;
 	background-size: 100%;
-	zoom: 75%;
   }
+
   
-  section {
-	display: flex;
-	flex-direction: row;
-	color: white;
-	margin-top: 380px;
+  .image {
+	width: 40%;
+	height: 40%;
   }
-  
-  div {
-	margin: auto;
-	text-align: left;
-  }
-  
-  ul {
-	margin: 0;
-	padding: 0;
-	list-style-type: none;
-  }
-  
-  li {
-	display: inline-block;
-	padding-block: 100px;
-	width: 100px;
-	height: 100px;
-	margin: center;
-	margin-left: 450px;
-	margin-right: 450px;
-  }
-  
-  section img {
-	width: 400px;
-	height: 350px;
-	margin: 0px;
-	position: relative;
-  }
-  
+
   footer {
 	width: 20px;
 	height: 20px;
@@ -149,11 +129,11 @@ body {
 	color: black;
 	font-size: 35px;
 	font-family: Georgia;
-	margin-left: 100px;
   }
   
   #fr-text {
 	transform: rotateZ(-3.3deg);
+	margin-left: 50px;
   }
   
   #en-text {
