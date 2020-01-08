@@ -10,8 +10,8 @@ const FirstPage = () => (
         <section>
             <nav>
                 <ul>
-                    <li><a class="tooltip" href="">
-                        <img src={F32} alt=""></img>
+                    <li><a class="tooltip" href="/fr">
+                        <img src={F32} alt="French box selector"></img>
                         <span id="fr-text">
                             Français
                         </span>
@@ -23,8 +23,8 @@ const FirstPage = () => (
                 <img src={wooden_c2} alt="Welcome to Vanier Robotics 2020"></img>
                 <nav>
                     <ul>
-                        <li><a class="tooltip" href="">
-                            <img src={E23} alt=""></img>
+                        <li><a class="tooltip" href="/en">
+                            <img src={E23} alt="English box selector"></img>
                                 <span id="en-text">
                                     English
                                 </span>
