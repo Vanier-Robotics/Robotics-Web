@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Vanier Robotics 2020</title>
+        
+        <style>
+        body { 
+         background-color: white;
+         font-family: Arial, Helvetica, sans-serif;
+         color: black;
+         padding: 20px;
+         background-image: url("../images/grass73.jpg");
+         background-repeat: no-repeat;
+         image-resolution:inherit;
+         background-clip: content-box;
+         scroll-margin:cover;
+         background-position:top;
+         text-align : top;
+         background-size: 100%;
+         zoom:75%;
+        
+        /*The background image doesnt fit the page when the screen is reduced.*/
+        }   
+        section {
+         display: flex;
+         flex-direction: row;
+         color: white;
+         margin-top: 380px;
+        }
+         
+         div { 
+            margin: auto;       
+            text-align: left;  
+        }
+        ul { 
+            margin: 0;
+            padding: 0;
+            list-style-type: none;
+        }
+        li { 
+            display: inline-block;   
+            padding-block: 100px;
+            width: 100px;
+            height: 100px;
+            margin: center;
+            margin-right: 450px;
+            margin-left: 150px;   
+        }
+
+        section img{
+            width: 400px;
+            height: 350px;
+            margin: 0px;   
+            position: relative;
+        }
+        footer{
+            width: 20px;
+            height: 20px;
+            margin-top: 110px;
+            float: right;
+            margin-right: 150px;
+        }
+        
+        .tooltip {
+        text-decoration:none;
+        position: relative;
+        display: inline-block;
+        vertical-align: middle;
+        -webkit-transform: perspective(1px) translateZ(0);
+        transform: perspective(1px) translateZ(0);
+        box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+        -webkit-transition-duration: 0.3s;
+        transition-duration: 0.3s;
+        -webkit-transition-property: transform;
+        transition-property: transform;
+        -webkit-transition-timing-function: ease-out;
+        transition-timing-function: ease-out;
+        }
+        .tooltip:hover, .tooltip:focus, .tooltip:active {
+        -webkit-transform: translateY(-40px);
+        transform: translateY(-40px);
+        }
+         .tooltip span {
+        display:none;
+        }
+        .tooltip span img {
+        float:left;
+        }
+         .tooltip:hover span {
+        display:block;
+        position: absolute;
+        overflow:hidden;
+        
+        }
+        span { 
+        background: rgb(231, 197, 134);
+        color: black;
+        font-size: 35px;
+        font-family: Georgia;
+        margin-left: 100px;
+              
+        }
+        #fr-text {
+        transform: rotateZ(-3.3deg); 
+        }
+        #en-text {
+        transform: rotateZ(3.3deg); 
+        }
+    
+        </style>
+    </head>
+    
+    <body>
+        <section>
+        
+         <nav>
+                <ul>
+                    <li><a class="tooltip" href="Fr.html">
+                        <img src="images/F32.png" alt="">
+                        <span id="fr-text">
+                            Français 
+                        </span>
+                        </a>
+                    </li>
+                </ul>          
+         </nav>
+                 
+        <div><img src="../images/wooden c2.png" alt="Welcome to vanier robotics 2020"></div>
+         <nav>
+                <ul>
+                    <li><a class="tooltip" href="En.html">
+                        <img src="../images/E23.png" alt=""> 
+                        <span id="en-text">
+                            English 
+                        </span>
+                        </a>
+                    </li>
+                </ul>
+         </nav>         
+        </section>
+
+        <footer>
+            <a href="http://robo-crc.ca/" target="_blank" data-toggle="tooltip" data-placement="top" title="Visit CRC's website for more information!">
+                <img src="images/crc1.png" alt="CRC">              
+            </a>   
+                         
+        </footer>
+        <script>
+            $(document).ready(function(){
+              $('[data-toggle="tooltip"]').tooltip();   
+            });
+        </script>
+    </body>
+</html>
