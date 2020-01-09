@@ -42,8 +42,196 @@
 
 // Layout.
 
-	@import 'layout/bg';
 	@import 'layout/wrapper';
 	@import 'layout/header';
 	@import 'layout/main';
 	@import 'layout/footer';
+
+// Landing Page 
+html, body, #___gatsby, #gatsby-focus-wrapper, #main1, #cubes {
+	height:100%;
+}
+#bg {
+	background-image: url("./images/bg.jpg");
+	background-position: center; 
+	background-repeat: no-repeat; 
+	background-size: cover; 
+position: fixed;
+height:100%;
+width:100%;
+}
+footer {
+    width:10%;
+	margin:auto;
+	bottom:0;
+	position:absolute;
+	left:2.5%;
+	bottom:5%;
+  }
+  #CRC {
+	  width:100%;
+	  height:100%;
+	  max-width:80px;
+	  display: block;
+	  margin-left: auto;
+	  margin-right: auto;
+  }
+a {
+	  border-bottom: none;
+  }
+  
+  .tooltip {
+	text-align: center;
+	text-decoration: none;
+	position: relative;
+	display: inline;
+	vertical-align: middle;
+	-webkit-animation-name: hoverout1; 
+	-webkit-animation-duration: 0.5s; 
+	animation-name: hoverout1;
+	animation-duration: 0.5s;
+	bottom:0;
+  }
+  p {
+	background: rgb(231, 197, 134);
+	color: black;
+	font-size: 4vmin;
+	font-family: Georgia;
+	text-align: center;
+	display: block;
+    margin-left: auto;
+	margin-right: auto;
+	width:20vmin;
+	max-width: 140px;
+	overflow: hidden;
+	position: relative;
+	opacity: 0;
+    -webkit-animation-name: hoverout2; 
+	-webkit-animation-duration: 0.5s; 
+	animation-name: hoverout2;
+	animation-duration: 0.5s;
+		}
+		
+.tooltip:hover .image{
+	-webkit-animation-name: hover1; 
+	-webkit-animation-duration: 0.5s; 
+	animation-name: hover1;
+	animation-duration: 0.5s;
+	bottom:10px;
+        }
+
+.tooltip:hover p {
+	display: block;
+	opacity:1;
+	-webkit-animation-name: hover2; 
+	-webkit-animation-duration: 0.5s; 
+	animation-name: hover2;
+	animation-duration: 0.5s;
+  }
+ @-webkit-keyframes hover1 {
+	from {bottom:0;}
+	to {bottom:20px;}
+  }
+  
+  @keyframes hover1 {
+	from {bottom:-10px;}
+	to {bottom:10px;}
+  }
+
+  @-webkit-keyframes hover2 {
+	from {top:-20px; opacity:0}
+	to {top:0; opacity:1}
+}
+  @keyframes hover2 {
+	from {top:-70px; opacity:0}
+	to {top:0; opacity:1}
+  }
+
+  @-webkit-keyframes hoverout1 {
+	from {bottom:20px;}
+	to {bottom:0;}
+  }
+  
+  @keyframes hoverout1 {
+	from {bottom:20px;}
+	to {bottom:0;}
+  }
+
+  @-webkit-keyframes hoverout2 {
+	from {top:0;opacity:1}
+	to {top:-70px;opacity:0}
+}
+  @keyframes hoverout2 {
+	from {top:0;opacity:1}
+	to {top:-70px;opacity:0}
+  }
+  
+  #fr-text {
+	transform: rotateZ(-3.3deg);
+  }
+  
+  #en-text {
+	transform: rotateZ(3.3deg);
+  }
+
+#fr, #en {
+	  width:25%;
+	  position: absolute;
+bottom:0;
+}
+#fr {
+	left:10%;
+}
+#en{
+	right:10%;
+}
+#red {
+	transform: translatey(20px);
+}
+#strip1 {
+	display:flex;
+	align-items: center;
+	position: absolute;
+	width: 100%;
+	bottom:10%;
+}
+#strip2 {
+	display:flex;
+	align-items: center;
+	position: absolute;
+	bottom:10%;
+	width: 100%;
+}
+.image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+	width:100%;
+	height:100%;
+	min-width: 0;
+	min-height: 0;
+	z-index:1000;
+	position: relative;
+	bottom:-10%;
+	-webkit-animation-name: hoverout1; 
+	-webkit-animation-duration: 0.5s; 
+	animation-name: hoverout1;
+	animation-duration: 0.5s;
+}
+#image {
+	bottom:0;
+	width:70%;
+	-webkit-animation-name: h; 
+	animation-name: h;
+}
+#wood {
+	width:40%;
+	margin:auto;
+	position: absolute;
+	left:30%;
+	bottom:0;
+}
+
+
+
+
