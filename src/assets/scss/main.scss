@@ -197,7 +197,7 @@ h1 {
 	position: relative;
 	top:60%;
 	font-size: 7vmin;
-	left:9vw;
+	left:5vw;
 	padding-bottom: 1em;
 	width:10vw;
 	height:auto;
@@ -243,56 +243,61 @@ h1 {
 	to {transform: rotate(-90deg);top:60%;}
 }
 .strip {
-width: 1000%;
-height:60%;
-margin-top:5%;
-margin-left:100%;
+position: absolute;
+width: 100%;
+height:30vmin;
+//margin-top:20%;
+bottom:20%;
+margin-left:0;
 -webkit-animation-name: move;
 -webkit-animation-duration: 4s;
--webkit-animation-iteration-count: infinite;
--webkit-animation-timing-function: linear;
 animation-name: move;
-animation-duration: 10s;
-animation-iteration-count: infinite;
-animation-timing-function: linear;
-}
-.strip:hover {
--webkit-animation-play-state: paused;
-animation-play-state: paused;
+animation-duration: 0.5s;
+display: -webkit-flex;        
+display: -ms-flexbox;     
+display: flex;
+overflow: visible;
+flex: 1;
 }
 @-webkit-keyframes move {
 from {margin-left: 100%;}
-to {margin-left: -480%;}
+to {margin-left: -0;}
 }
 @keyframes move {
 from {margin-left: 100%;}
-to {margin-left: -480%;}
+to {margin-left: 0;}
 }
 .person {
 	background: grey;
-	width:5%;
 	height:100%;
-	margin-right:10%;
-	display: inline-block;
+	display: block;
 	position: relative;
     right:0;
 	z-index: 95;
 	color: #fff;
 	text-align: center;
+	overflow: visible;
 	padding:1em;
-	overflow-y: auto;
+	flex:1;
+	float: left;
+	animation-name: team-hover-out;
+	animation-duration: 0.5s;
 }
-#hovertext {
-	text-align: center;
-	position: relative;
-	margin:auto;
-	padding-top: 5%;
+.person:hover {
+	flex:2;
+	animation-name: team-hover;
+	animation-duration: 0.5s;
+}
+.person:hover h3,.person:hover .persontext {
+	display:block;
 }
 //MEMBERS
 .personimage {
-	float:right;
-	width:50%;
-	height:50%;
+	position: absolute;
+	left:0;
+	margin:5%;
+	width:95%;
+	height:95%;
 	background-size: contain;
 	background-repeat: no-repeat;
 	background-position: center;
@@ -302,11 +307,18 @@ to {margin-left: -480%;}
 }
 .persontext {
 	text-align: justify;
-	display: block;
+	display:none;
 	font-size: 2vmin;
+	position: fixed;
+	top:20%;
+	left:5%;
 }
 h3 {
 	text-align : left;
+	position: fixed;
+	display:none;
+	top:15%;
+	left:5%;
 }
 
 // Landing Page 
