@@ -30,10 +30,7 @@
 	@import 'base/typography';
 
 // Layout.
-	@import 'layout/bg';
-	@import 'layout/wrapper';
-	@import 'layout/header';
-	@import 'layout/footer';
+
 
 #layout {
 	display: flex;
@@ -57,7 +54,7 @@ html, body, #layout, #___gatsby, #gatsby-focus-wrapper {
 	
 }
 .gr__localhost, body{
-	background-image: url("image/homebg.jpg");
+	background-image: url(image/homebg.jpg);
 	background-position: left; 
 	background-repeat: no-repeat; 
 	background-size: cover;
@@ -304,7 +301,7 @@ html, body, #___gatsby, #gatsby-focus-wrapper, #main1, #cubes {
 	height:100%;
 }
 #bg {
-	background-image: url("./image/bg.jpg");
+	background-image: url(image/bg.jpg);
 	background-position: center; 
 	background-repeat: no-repeat; 
 	background-size: cover; 
@@ -344,7 +341,7 @@ a {
 	animation-duration: 0.5s;
 	bottom:0;
   }
-  p {
+  .landing-text {
 	background: rgb(231, 197, 134);
 	color: black;
 	font-size: 4vmin;

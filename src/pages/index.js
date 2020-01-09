@@ -12,14 +12,14 @@ const FirstPage = () => (
           <div id="fr" class="block">
              <a class="tooltip" href="/fr/home">
                       <img src={F32} alt="French box selector" class="image"></img>
-                      <p id="fr-text">Français</p>
+                      <p class="landing-text" id="fr-text">Français</p>
                       </a>
                 
           </div>
           <div id="en" class="block">
                 <a class="tooltip" href="/en/home">
                           <img src={E23} alt="English box selector" class="image" id="red"></img>
-                              <p id="en-text">English</p></a>
+                              <p class="landing-text" id="en-text">English</p></a>
      
               </div>
   </div>
