@@ -288,7 +288,7 @@ to {margin-left: 0;}
 	animation-name: team-hover;
 	animation-duration: 0.5s;
 }
-.person:hover h3,.person:hover .persontext {
+.person:hover h2,.person:hover .persontext {
 	display:block;
 }
 //MEMBERS
@@ -308,12 +308,13 @@ to {margin-left: 0;}
 .persontext {
 	text-align: justify;
 	display:none;
-	font-size: 2vmin;
+	//font-size: 3vmin;
 	position: fixed;
 	top:20%;
 	left:5%;
+	padding-right:1em;
 }
-h3 {
+h2 {
 	text-align : left;
 	position: fixed;
 	display:none;
