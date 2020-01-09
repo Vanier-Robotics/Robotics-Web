@@ -8,8 +8,7 @@ const HomePage = () => (
   </div>
   
 <div id="info" >
-<iframe id="iframe" 
-src="/en/vanierStreet" ></iframe>
+<iframe id="iframe" src="/en/vanierStreet" ></iframe>
 </div>
   </div>
 )

@@ -2,8 +2,12 @@ import React from 'react'
 import { Link } from 'gatsby'
 
 const SecondPage = () => (
-  <div>
-    <h1>Flip 2020</h1>
+  <div id="movingbox">
+    <h1>Flip2020</h1>
+    
+   {/* Put your stuff here */}
+
+
   </div>
 )
 
