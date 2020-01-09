@@ -88,11 +88,25 @@ iframe {
 	background-color: rgba(0, 0, 0, 100);
 	position:relative;
 	height:100%;
+	padding:1.5em;
+	text-align: justify;
 	overflow-y: scroll;
     overflow-x: hidden;
 	//top:20%;
 	animation-name: entrance2;
-    animation-duration: 1.4s;
+	animation-duration: 1.4s;
+	font-size: medium;
+}
+
+h1 {
+	text-align: left;
+	//text-decoration: underline;
+	line-height: 10px;
+	padding-top:1em;
+	padding-bottom:1em;
+	box-shadow:
+    inset 0 -0.175em white;
+	background-size: 1px 1em;
 }
 
 @keyframes entrance1 {
