@@ -91,7 +91,8 @@ iframe {
 	padding:1.5em;
 	text-align: justify;
 	overflow-y: scroll;
-    overflow-x: hidden;
+	overflow-x: hidden;
+	border-radius: 5px;
 	//top:20%;
 	animation-name: entrance2;
 	animation-duration: 1.4s;
@@ -100,7 +101,6 @@ iframe {
 
 h1 {
 	text-align: left;
-	//text-decoration: underline;
 	line-height: 10px;
 	padding-top:1em;
 	padding-bottom:1em;
