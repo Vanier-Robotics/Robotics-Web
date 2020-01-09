@@ -204,6 +204,8 @@ h1 {
 	transform: rotate(-90deg);
 	opacity:0.5;
 	z-index:60;
+	animation-name: teamname-hover-out;
+	animation-duration: 0.5s;
 }
 
 .team-options:hover {
@@ -219,7 +221,10 @@ h1 {
 	opacity:1;
 	color: white;
 	z-index:99;
-	padding-bottom: 0;
+	transform: rotate(0);
+	top:70%;
+	animation-name: teamname-hover;
+	animation-duration: 0.5s;
 }
 @keyframes team-hover {
 	from {flex:1;}
@@ -228,6 +233,14 @@ h1 {
 @keyframes team-hover-out {
 	from {flex:2;}
 	to {flex:1;}
+}
+@keyframes teamname-hover {
+	from {transform: rotate(-90deg);top:60%;}
+	to {transform: rotate(0);top:70%;}
+}
+@keyframes teamname-hover-out {
+	from {transform: rotate(0);top:70%;}
+	to {transform: rotate(-90deg);top:60%;}
 }
 .strip {
 width: 1000%;
