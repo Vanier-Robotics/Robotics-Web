@@ -1,3 +1,4 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/a07282ab-3449-4b79-b88f-2e79de341c72/deploy-status)](https://app.netlify.com/sites/focused-payne-44a5ed/deploys)
 # Vanier Robotics Website - 2019 Edition
 If you have been added to this repository, it is because you have expressed particular interest in helping create the website for the 2019-2020 competition for Vanier Robotics. If you feel like this is a mistake, please contact the following people on Discord so that they can remove you from the repository: 
 
