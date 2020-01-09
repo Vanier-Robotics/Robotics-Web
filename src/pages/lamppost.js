@@ -43,7 +43,7 @@ function scaling () {
     let info = document.getElementById("info");
 try {
     info.style.height = h + "px"
- if(w > 593.39 || ((w - 320) * 2.5197153) > h) { 
+ if(w > 640 || ((w - 345) * 2.5197153) > h) { 
      lamp.style.height = h + "px"
      lamp.style.width = h * 0.39687 + "px"
      nav.style.height = h + "px"
@@ -52,12 +52,12 @@ try {
      nav.style.marginTop = "0"
  } else {
       
-            lamp.style.width = w - 320 + "px"
-            nav.style.width = w - 320 + "px"
-            lamp.style.height = (w - 320) * 2.5197153 + "px"
-            nav.style.height = (w - 320) * 2.5197153 + "px"
-            nav.style.marginTop =  (h - ((w - 320) * 2.5197153)) + "px"     
-} } catch(err) {} }
+            lamp.style.width = w - 345 + "px"
+            nav.style.width = w - 345 + "px"
+            lamp.style.height = (w - 345) * 2.5197153 + "px"
+            nav.style.height = (w - 345) * 2.5197153 + "px"
+            nav.style.marginTop =  (h - ((w - 345) * 2.5197153)) + "px"     
+        } } catch(err) {} }
 
-setTimeout(time, 300);
+setTimeout(time, 350);
 setInterval(scaling, 30);

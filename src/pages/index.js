@@ -2,7 +2,7 @@ import React from 'react'
 import Layout from '../components/layout'
 import Header from '../components/Header'
 import Footer from '../components/Footer'
-
+import Lorem from '../images/bg.jpg'
 class IndexPage extends React.Component {
   constructor(props) {
     super(props)
