@@ -1,3 +1,4 @@
+import React from 'react'
 function time() {
 let nav = document.getElementById("nav");
 let info = document.getElementById("iframe");
@@ -66,3 +67,9 @@ try {
 
 setTimeout(time, 300);
 setInterval(scaling, 30);
+
+const NotFoundPage = () => (
+      <h1>You're not supposed to be here</h1>
+  )
+  
+  export default NotFoundPage
