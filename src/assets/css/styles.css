@@ -1,0 +1,40 @@
+body {font-family: Arial, Helvetica, sans-serif;
+      font-size: 20px;
+      background-image: url("website-background.jpg");
+      background-attachment: fixed;
+      background-position: center;}
+.nav {float: left;
+      width: 15%;
+      height: 1000px;
+      text-align: center;
+      margin-left: -8px;
+      margin-top: -8px;
+      background: rgba(173, 255, 47, 0.8);}
+.title {font-size: 40px;
+        margin-bottom: -10px;}
+.box {float: right;
+          width: 85%;
+          background: rgba(255, 218, 185, 0.8);
+          height: 100%;
+          text-align: center;
+          margin-top: -8px;
+          margin-right: -8px;}
+.text {padding-top: 30px;
+        padding-bottom: 30px;
+        padding-left: 100px;
+        padding-right: 100px;
+        text-align: justify;}
+.parallax-test {background-image: url("test.jpg");
+                  height: 700px;
+                  width: 100%;
+                  background-attachment: fixed;
+                  background-position: center;
+                  background-repeat: no-repeat;
+                  background-size: cover;}
+.parallax-test2 {background-image: url("test2.jpg");
+                   height: 700px;
+                   width: 100%;
+                   background-attachment: fixed;
+                   background-position: center;
+                   background-repeat: no-repeat;
+                   background-size: cover;}
