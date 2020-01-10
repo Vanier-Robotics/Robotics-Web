@@ -69,7 +69,7 @@ setTimeout(time, 300);
 setInterval(scaling, 30);
 
 const NotFoundPage = () => (
-      <h1>You're not supposed to be here</h1>
+   <p style={{color:"black"}}>¯\_(ツ)_/¯</p>   
   )
   
   export default NotFoundPage
