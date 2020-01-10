@@ -6,7 +6,6 @@ const HomePage = () => (
   <div id="nav">    
        <script type = "text/javascript" src = "lamppost.js" ></script>
   </div>
-  
 <div id="info" >
 <iframe id="iframe" src="/en/vanierStreet" ></iframe>
 </div>

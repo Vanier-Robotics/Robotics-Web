@@ -41,15 +41,28 @@
 }
 
 // Nav.
-#sign0:hover, #sign1:hover, #sign2:hover, #sign3:hover, #sign4:hover, #sign5:hover, #sign6:hover, #sign7:hover {
-	filter: brightness(130%)
+#sign0, #sign1, #sign2, #sign3, #sign4, #sign5, #sign6, #sign7, #sign8 {
+	animation-name: sign-hover-out;
+	animation-duration: 0.5s;
+}
+#sign0:hover, #sign1:hover, #sign2:hover, #sign3:hover, #sign4:hover, #sign5:hover, #sign6:hover, #sign7:hover, #sign8:hover {
+	filter: brightness(130%);
+	animation-name: sign-hover;
+	animation-duration: 0.5s;
+}
+@keyframes sign-hover {
+	from {filter:none;}
+	to {filter: brightness(130%);}
+}
+@keyframes sign-hover-out {
+	from  {filter: brightness(130%);}
+	to {filter:none;}
 }
 #nav {
 	position: relative;
 	animation-name: entrance1;
     animation-duration: 1.1s;
 }
-
 // Info
 html, body, #layout, #___gatsby, #gatsby-focus-wrapper {
 	height:100%;
