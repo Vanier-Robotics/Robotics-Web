@@ -7,7 +7,7 @@ import wooden_c2 from '../images/wooden_c2.jpg'
 
 export default () => <Layout>
       <div id="main1">
-      <div id="bg"></div>
+      <div id="bg1"></div>
     <div id="cubes">
   <div id="strip1">
           <div id="fr" class="block">

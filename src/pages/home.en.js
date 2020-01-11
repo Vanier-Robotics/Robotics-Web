@@ -3,6 +3,7 @@ import Layout from "../components/layout"
 
 const HomePage = () => (
   <Layout>
+        <div id="bg2"></div>
 <div id = "layout">
   <div id="nav">    
        <script type = "text/javascript" src = "lamppost.js" ></script>
