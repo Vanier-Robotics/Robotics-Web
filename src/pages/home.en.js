@@ -1,7 +1,8 @@
-import PropTypes from 'prop-types'
 import React from 'react'
+import Layout from "../components/layout"
 
 const HomePage = () => (
+  <Layout>
 <div id = "layout">
   <div id="nav">    
        <script type = "text/javascript" src = "lamppost.js" ></script>
@@ -10,11 +11,7 @@ const HomePage = () => (
 <iframe id="iframe" src="/en/vanierStreet" ></iframe>
 </div>
   </div>
+  </Layout>
 )
   
-HomePage.propTypes = {
-    onOpenArticle: PropTypes.func,
-    timeout: PropTypes.bool
-}
-
 export default HomePage
