@@ -66,10 +66,12 @@ try {
 } } catch(err) {} }
 
 setTimeout(time, 300);
-setInterval(scaling, 30);
+setInterval(scaling, 1);
 
 const NotFoundPage = () => (
-   <p style={{color:"black"}}>¯\_(ツ)_/¯</p>   
+    <div>
+    <p id="fof">¯\_(ツ)_/¯</p>  
+   <p id="fof">There doesn't seem to be anything there...</p> </div>
   )
   
   export default NotFoundPage
