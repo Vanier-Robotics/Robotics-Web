@@ -249,7 +249,7 @@ body {
 	flex-grow: 1;
 	text-align: center;
 	height:100%;
-	opacity: 0.7;
+	/*opacity: 0.9;*/
 	position: relative;
 	overflow: hidden;
 	background-image: none;
@@ -264,7 +264,7 @@ iframe {
 }
 
 #movingbox {
-	background-color: rgba(0, 0, 0, 100);
+	background-color: rgba(0, 0, 0, 0.8);
 	position:relative;
 	height:95%;
 	padding:1.5em;
@@ -274,7 +274,7 @@ iframe {
 	border-radius: 5px;
 	animation-name: entrance2;
 	animation-duration: 1.4s;
-	font-size: medium;
+	font-size: 28px;
 }
 
 h1 {
@@ -282,8 +282,9 @@ h1 {
 	line-height: 10px;
 	padding-top:0.5em;
 	padding-bottom:1em;
-	box-shadow: inset 0 -0.175em white;
+	box-shadow: inset 0 -0.175em white; 
 	background-size: 1px 1em;
+	padding: 1.5em;
 }
 p {
 padding-bottom : 0.5em;
@@ -308,4 +309,25 @@ padding-bottom : 0.5em;
 		top:0;
 		opacity:1;
 	}
+}
+
+/* Vanier College Page */
+
+.parallax-1 {
+	background-image: url("../images/test.jpg");
+	height: 700px;
+	width: 100%;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.parallax-2 {
+	background-image: url("../images/test2.jpg");
+	height: 700px;
+	width: 100%;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
 }
