@@ -43,7 +43,7 @@ a {
 	text-align: center;
 	text-decoration: none;
 	position: relative;
-	display: inline;
+	display: inline-block;
 	vertical-align: middle;
 	-webkit-animation-name: hoverout1; 
 	-webkit-animation-duration: 0.5s; 
@@ -63,8 +63,10 @@ a {
 	width:20vmin;
 	max-width: 140px;
 	overflow: hidden;
-	position: relative;
-	opacity: 0;
+	position: absolute;
+	bottom:0;
+	left:25%;
+	opacity:0;
     -webkit-animation-name: hoverout2; 
 	-webkit-animation-duration: 0.5s; 
 	animation-name: hoverout2;
@@ -77,11 +79,12 @@ a {
 	-webkit-animation-duration: 0.5s; 
 	animation-name: hover1;
 	animation-duration: 0.5s;
-	bottom:10px;
+	bottom:10%;
         }
 
 .tooltip:hover .landing-text {
 	display: block;
+	bottom:-20%;
 	opacity:1;
 	-webkit-animation-name: hover2; 
 	-webkit-animation-duration: 0.5s; 
@@ -90,30 +93,30 @@ a {
   }
  @-webkit-keyframes hover1 {
 	from {bottom:0;}
-	to {bottom:20px;}
+	to {bottom:10%;}
   }
   
   @keyframes hover1 {
-	from {bottom:-10px;}
-	to {bottom:10px;}
+	from {bottom:0;}
+	to {bottom:10%;}
   }
 
   @-webkit-keyframes hover2 {
-	from {top:-20px; opacity:0}
-	to {top:0; opacity:1}
+	from {bottom:0; opacity:0}
+	to {bottom:-50%; opacity:1}
 }
   @keyframes hover2 {
-	from {top:-70px; opacity:0}
-	to {top:0; opacity:1}
+	from {bottom:0; opacity:0}
+	to {bottom:-20%; opacity:1}
   }
 
   @-webkit-keyframes hoverout1 {
-	from {bottom:20px;}
+	from {bottom:10%;}
 	to {bottom:0;}
   }
   
   @keyframes hoverout1 {
-	from {bottom:20px;}
+	from {bottom:10%;}
 	to {bottom:0;}
   }
 
@@ -122,8 +125,8 @@ a {
 	to {top:-70px;opacity:0}
 }
   @keyframes hoverout2 {
-	from {top:0;opacity:1}
-	to {top:-70px;opacity:0}
+	from {bottom:-20%; opacity:1}
+	to {bottom:0; opacity:0}
   }
   
   #fr-text {
@@ -144,9 +147,6 @@ bottom:0;
 }
 #en{
 	right:10%;
-}
-#red {
-	transform: translatey(20px);
 }
 #strip1 {
 	display:flex;
@@ -177,6 +177,7 @@ bottom:0;
 	-webkit-animation-duration: 0.5s; 
 	animation-name: hoverout1;
 	animation-duration: 0.5s;
+	bottom:0;
 }
 #image {
 	bottom:0;
@@ -248,7 +249,7 @@ body {
 	flex-grow: 1;
 	text-align: center;
 	height:100%;
-	opacity: 0.7;
+	/*opacity: 0.9;*/
 	position: relative;
 	overflow: hidden;
 	background-image: none;
@@ -262,8 +263,8 @@ iframe {
 	overflow: hidden;
 }
 
-.movingbox {
-	background-color: rgba(0, 0, 0, 100);
+#movingbox {
+	background-color: rgba(0, 0, 0, 0.8);
 	position:relative;
 	height:95%;
 	padding:1.5em;
@@ -273,7 +274,7 @@ iframe {
 	border-radius: 5px;
 	animation-name: entrance2;
 	animation-duration: 1.4s;
-	font-size: medium;
+	font-size: 28px;
 }
 
 #characters-box {
@@ -287,8 +288,9 @@ h1 {
 	line-height: 10px;
 	padding-top:0.5em;
 	padding-bottom:1em;
-	box-shadow: inset 0 -0.175em white;
+	box-shadow: inset 0 -0.175em white; 
 	background-size: 1px 1em;
+	padding: 1.5em;
 }
 p {
 padding-bottom : 0.5em;
@@ -510,3 +512,25 @@ h2 {
 	top:15%;
 	left:5%;
 }
+
+/* Vanier College Page */
+
+.parallax-1 {
+	background-image: url("../images/test.jpg");
+	height: 700px;
+	width: 100%;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.parallax-2 {
+	background-image: url("../images/test2.jpg");
+	height: 700px;
+	width: 100%;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
