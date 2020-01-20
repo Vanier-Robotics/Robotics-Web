@@ -17,30 +17,13 @@ wrapper{
 	padding-left:auto;
 	padding-right:auto;
 }
-.navBar{
-		/*This is a placeholder, I don't have the actual thing*/
-	float: left;
-	height: 100%;
-	background-color: blue;
-}
-#vanierLogo{
-	Height: 150px;
-	Width: 300px;
-	background-image: linear-gradient(rgba(256,256,256,0),rgba(256,256,256,0.2),rgba(256,256,256,0));
-}
-.navPlaceholder{
-	float: none;
-    background: green;
-    width: 300px;
-    height: 800px;
-}
+
 .parallaxBox{
 	float: none;
-	width: 80%;
+	width: 100%;
 	background-color: #1f1f1f;
 	height: 100%;
 	max-height: 100%;
-	max-width: 1600px;
 	overflow: scroll;
 }
 .parallax{
@@ -52,37 +35,22 @@ wrapper{
 	background-size: 100% 100%;
 }
 .infoBox{
-	background-color: #dddddd;
-	border: solid;
-	border-width: 1px;
+	color: white;
 	width: 80%;
-	margin: 100px auto 700px auto;
+	margin: 100px auto 100px auto;
 	padding: 1rem;
 }
 .infoImage{
 	display: block;
-	background-color: #dddddd;
-	border: solid;
-	border-width: 1px;
-	width: 69%;
-	height: 69%;
-	margin: 100px auto 700px auto;
+	width: 20%;
+	height: 20%;
+	margin: 100px auto 100px auto;
 }
 #firstInfoBox{
-	margin: 155px auto 700px auto;
+	margin: 155px auto 1d00px auto;
 		/*Here is the first box, fit for a title; put R for Robot or somesuch with a nice bigg and thicc font*/
 }
 #lastInfoBox{
 	margin: 100px auto 0px auto;
 		/*Same as above, conclude as you will*/
 }
-.decorativeTrapezoid{
-		/*Serves no practical purpose, but adds symmetry*/
-	border-bottom: 100px solid #1f1f1f;
-	border-left: 25px solid transparent;
-	border-right: 25px solid transparent;
-	height: 0;
-	width: 96%;
-	margin-left: auto;
-	margin-right: auto;
-    }
