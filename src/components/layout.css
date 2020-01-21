@@ -264,7 +264,7 @@ iframe {
 	overflow: hidden;
 }
 
-#movingbox {
+.movingbox {
 	background-color: rgba(0, 0, 0, 0.8);
 	position:relative;
 	height:95%;
@@ -274,8 +274,13 @@ iframe {
 	overflow-x: hidden;
 	border-radius: 5px;
 	animation-name: entrance2;
-	animation-duration: 1.4s;
-	font-size: 28px;
+	animation-duration: 1.1s;
+	font-size: medium;
+}
+#characters-box {
+	padding:0;
+	background-color: rgba(0, 0, 0, 0);
+	overflow-y: hidden;
 }
 
 h1 {
@@ -312,6 +317,202 @@ padding-bottom : 0.5em;
 	}
 }
 
+/*CHARACTERS*/
+.selection {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	height:100%;
+	display: -webkit-flex;        
+	display: -ms-flexbox;     
+	display: flex;
+	overflow: hidden;
+	flex: 1;
+}
+#bg-ch {
+	display:block;
+	border-radius: 5px;
+	z-index: 50;
+}
+.team-image {
+	width:100%;
+	height:10%;
+	margin: 0;
+	padding: 0;
+	margin:auto;
+	display: block;
+	border:none;
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+	z-index: 40;
+}
+#build-image {
+	background-image: url(teams/bigbird.png);
+}
+#kiosk-image {
+	background-image: url(teams/elmo.png);
+	transform: translatey(3px);
+}
+#programming-image {
+	background-image: url(teams/kermitGrin.png);
+}
+#journalism-image {
+	background-image: url(teams/oscar.png);
+}
+#video-image {
+	background-image: url(teams/ernie-bernie.png);
+}
+#web-image {
+	background-image: url(teams/cookie.png);
+}
+.team-options {
+	display: block;
+	float: left;  
+	width:auto;
+	height:100%;
+	flex: 1;
+	animation-name: team-hover-out;
+	animation-duration: 0.5s;
+}
+.team {
+	position: absolute;
+	display:none;
+	bottom:0;
+	left:0;
+	width:100%;
+	height:90%;
+	margin:0 auto;
+	background-color: rgba(0, 0, 0, 0.8);
+	border-radius: 5px;
+}
+.team-name {
+	position: relative;
+	top:60%;
+	font-size: 7vmin;
+	left:5vw;
+	padding-bottom: 1em;
+	width:10vw;
+	height:auto;
+	transform: rotate(-90deg);
+	opacity:0.5;
+	z-index:60;
+	animation-name: teamname-hover-out;
+	animation-duration: 0.5s;
+}
+
+.team-options:hover {
+	animation-name: team-hover;
+	animation-duration: 0.5s;
+	flex:2;
+}
+.team-options:hover .team {
+	display:block;
+	z-index:90;
+}
+.team-options:hover .team-name {
+	opacity:1;
+	color: white;
+	z-index:99;
+	transform: rotate(0);
+	top:70%;
+	animation-name: teamname-hover;
+	animation-duration: 0.5s;
+}
+@keyframes team-hover {
+	from {flex:1;}
+	to {flex:2;}
+}
+@keyframes team-hover-out {
+	from {flex:2;}
+	to {flex:1;}
+}
+@keyframes teamname-hover {
+	from {transform: rotate(-90deg);top:60%;}
+	to {transform: rotate(0);top:70%;}
+}
+@keyframes teamname-hover-out {
+	from {transform: rotate(0);top:70%;}
+	to {transform: rotate(-90deg);top:60%;}
+}
+.strip {
+position: absolute;
+width: 100%;
+height:30vmin;
+bottom:20%;
+margin-left:0;
+-webkit-animation-name: move;
+-webkit-animation-duration: 4s;
+animation-name: move;
+animation-duration: 0.5s;
+display: -webkit-flex;        
+display: -ms-flexbox;     
+display: flex;
+overflow: visible;
+flex: 1;
+}
+@-webkit-keyframes move {
+from {margin-left: 100%;}
+to {margin-left: -0;}
+}
+@keyframes move {
+from {margin-left: 100%;}
+to {margin-left: 0;}
+}
+.person {
+	background: grey;
+	height:100%;
+	display: block;
+	position: relative;
+    right:0;
+	z-index: 95;
+	color: #fff;
+	text-align: center;
+	overflow: visible;
+	padding:1em;
+	flex:1;
+	float: left;
+	animation-name: team-hover-out;
+	animation-duration: 0.5s;
+}
+.person:hover {
+	flex:2;
+	animation-name: team-hover;
+	animation-duration: 0.5s;
+}
+.person:hover h2,.person:hover .persontext {
+	display:block;
+}
+/*MEMBERS*/
+.personimage {
+	position: absolute;
+	left:0;
+	margin:5%;
+	width:95%;
+	height:95%;
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+#person-1 {
+	background-image: url(members/1.jpg);
+}
+.persontext {
+	text-align: justify;
+	display:none;
+	position: fixed;
+	top:20%;
+	left:5%;
+	padding-right:1em;
+}
+h2 {
+	text-align : left;
+	position: fixed;
+	display:none;
+	top:15%;
+	left:5%;
+}
+
 /* Vanier College Page */
 
 .parallax-1 {
@@ -332,3 +533,4 @@ padding-bottom : 0.5em;
 	background-repeat: no-repeat;
 	background-size: cover;
 }
+

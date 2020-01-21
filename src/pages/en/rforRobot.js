@@ -3,7 +3,7 @@ import { Link } from 'gatsby'
 import thincc from '../../images/thincc.png' 
 
 const SecondPage = () => (
-  <div id="movingbox">
+  <div class="movingbox">
     <h1>R for Robot</h1>
     <div id="head">
       <head>
