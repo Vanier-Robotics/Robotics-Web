@@ -2,7 +2,7 @@ import React from 'react'
 import { Link } from 'gatsby'
 
 const SecondPage = () => (
-  <div class="movingbox">
+  <div id="movingbox">
     <h1>Art</h1>
     
    {/* Put your stuff here */}

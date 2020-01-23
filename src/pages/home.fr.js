@@ -6,10 +6,10 @@ const HomePage = () => (
         <div id="bg2"></div>
 <div id = "layout">
   <div id="nav">    
-       <script type = "text/javascript" src = "lamppost.js" ></script>
+       <script type = "text/javascript" src = "lamppost_fr.js" ></script>
   </div>
 <div id="info" >
-<iframe id="iframe" src="/en/vanierStreet" ></iframe>
+<iframe id="iframe" src="/fr/vanierStreet" ></iframe>
 </div>
   </div>
   </Layout>
