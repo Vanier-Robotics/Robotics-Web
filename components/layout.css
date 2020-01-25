@@ -576,13 +576,15 @@ h2 {
 	overflow:hidden;
 	margin:auto;
 	width:90%;
+	max-width: 500px;
 	height:90%;
 	position: absolute;
 	top: 0; left: 0; bottom: 0; right: 0;
 }
 #example2 {
 	background-image: url(../components/art/example2.png);
-	width:1500px;
+	min-width:1500px;
+	width:100%;
 	background-size: cover;
 	background-repeat:no-repeat;
 	background-position: left center;
