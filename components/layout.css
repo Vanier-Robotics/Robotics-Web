@@ -256,7 +256,7 @@ body {
 	background-image: none;
 }
 
-iframe {
+#iframe {
 	width:95%;
 	height: 95%;
 	margin:1rem;
@@ -533,7 +533,11 @@ h2 {
 }
 
 /* Tutorial */
-#vid-embed {
-	height:100%;
-	width:100%;
+
+.vid {
+	max-width:100%;
+	max-height:50vw;
+	display:block;
+	margin: 0 auto;
+	margin-bottom:2em;
 }
