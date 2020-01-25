@@ -256,7 +256,7 @@ body {
 	background-image: none;
 }
 
-iframe {
+#iframe {
 	width:95%;
 	height: 95%;
 	margin:1rem;
@@ -281,6 +281,10 @@ iframe {
 	padding:0;
 	background-color: rgba(0, 0, 0, 0);
 	overflow-y: hidden;
+}
+
+#art-box {
+	padding:0;
 }
 
 h1 {
@@ -547,3 +551,114 @@ h2 {
 	background-size: cover;
 }
 
+/* Art Page */
+
+.artstrip {
+	width:100%;
+	height: 30vmax;
+	display: flex;
+}
+.art-images {
+	flex:1;
+	position:relative;
+}
+.fixedimage {
+	margin:auto;
+	width:70%;
+	height:70%;
+	position: absolute;
+	top: 0; left: 0; bottom: 0; right: 0;
+}
+#grey-art {
+	background-color:rgba(0, 0, 0, 0.6);
+}
+#example1 {
+	background-image: url(../components/art/example1.jpg);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+.scrollimage {
+	width:100%;
+	height:100%;
+	animation: moveSlideshow 4s infinite;
+	transform: translate3d(0, 0, 0);
+}
+.scroll-container:hover .scrollimage{
+	animation: none;
+}
+.scroll-container:hover .art-bt {
+	display:initial;
+}
+.scroll-container {
+	overflow:hidden;
+	margin:auto;
+	width:90%;
+	max-width: 500px;
+	height:90%;
+	position: absolute;
+	top: 0; left: 0; bottom: 0; right: 0;
+	display: flex;
+    align-items: center;
+}
+.example2 {
+	background-image: url(../components/art/example2.png);
+	background-size: cover;
+	background-repeat:no-repeat;
+	background-position: left center;
+	min-width:300%;
+	width:100%;
+	height: 30vw;
+}
+
+
+@keyframes moveSlideshow {
+
+	0% { left: 0;}
+	50% { transform: translateX(-33.3333%); }
+	100% { transform: translateX(-66.6666%); }
+}
+
+.art-bt {
+	position:absolute;
+	display:none;
+	font-size:10vmin;
+	filter: brightness(1);
+	animation : art-arrows-out 0.4s
+}
+.art-bt:hover {animation:art-arrows 0.4s; filter: brightness(50%);}
+.left-bt {left:0;}
+.right-bt {right:0;}
+
+
+@keyframes art-arrows {
+	0% {filter: brightness(1);}
+	100% {filter: brightness(50%);}
+}
+@keyframes art-arrows-out {
+	0% {filter: brightness(50%);}
+	100% {filter: brightness(1);}
+}
+
+/* Story Time Page */
+section{
+    font-family: 'Times New Roman', Times, serif;
+    padding-top: 1%;
+}
+#web{
+    padding-bottom: 1%;
+}
+
+#image3{
+    float: left;
+	margin-left: 5%;
+}
+/* Tutorial */
+
+.vid {
+	max-width:100%;
+	max-height:50vw;
+	display:block;
+	margin: 0 auto;
+	margin-bottom:2em;
+}
