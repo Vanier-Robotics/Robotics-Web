@@ -345,6 +345,19 @@ padding-bottom : 0.5em;
 	background-position: center;
 	z-index: 40;
 }
+
+.team-image-mentors {
+	height:11%;
+	margin: 0;
+	padding: 0;
+	margin:auto;
+	display: block;
+	border:none;
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+	z-index: 40;
+}
 #build-image {
 	background-image: url(teams/bigbird.png);
 }
