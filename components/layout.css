@@ -256,7 +256,7 @@ body {
 	background-image: none;
 }
 
-iframe {
+#iframe {
 	width:95%;
 	height: 95%;
 	margin:1rem;
@@ -610,4 +610,12 @@ section{
 #image3{
     float: left;
     margin-left: 5%;
+/* Tutorial */
+
+.vid {
+	max-width:100%;
+	max-height:50vw;
+	display:block;
+	margin: 0 auto;
+	margin-bottom:2em;
 }
