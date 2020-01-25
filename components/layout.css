@@ -595,3 +595,27 @@ h2 {
 	50% { transform: translateX(-33.3333%); }
 	100% { transform: translateX(-66.6666%); }
 }
+
+
+section{
+    font-family: 'Times New Roman', Times, serif;
+    padding-top: 1%;
+}
+#web{
+    padding-bottom: 1%;
+}
+
+h1{
+    font-size: 26px;
+}
+p{
+    font-size: 21px;
+}
+img{
+    float: right;
+    margin-right: 5%;
+}
+#image3{
+    float: left;
+    margin-left: 5%;
+}
