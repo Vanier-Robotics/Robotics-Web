@@ -597,3 +597,17 @@ h2 {
 	50% { transform: translateX(-33.3333%); }
 	100% { transform: translateX(-66.6666%); }
 }
+
+/* Story Time Page */
+section{
+    font-family: 'Times New Roman', Times, serif;
+    padding-top: 1%;
+}
+#web{
+    padding-bottom: 1%;
+}
+
+#image3{
+    float: left;
+    margin-left: 5%;
+}
