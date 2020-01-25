@@ -582,8 +582,11 @@ h2 {
 	animation: moveSlideshow 4s infinite;
 	transform: translate3d(0, 0, 0);
 }
-.scrollimage:hover {
-	animation-play-state: paused;
+.scroll-container:hover .scrollimage{
+	animation: none;
+}
+.scroll-container:hover .art-bt {
+	display:initial;
 }
 .scroll-container {
 	overflow:hidden;
@@ -596,7 +599,7 @@ h2 {
 	display: flex;
     align-items: center;
 }
-#example2 {
+.example2 {
 	background-image: url(../components/art/example2.png);
 	background-size: cover;
 	background-repeat:no-repeat;
@@ -613,6 +616,14 @@ h2 {
 	50% { transform: translateX(-33.3333%); }
 	100% { transform: translateX(-66.6666%); }
 }
+
+.art-bt {
+	position:absolute;
+	display:none;
+}
+.left-bt {left:0;}
+
+.right-bt {right:0;}
 
 /* Story Time Page */
 section{
