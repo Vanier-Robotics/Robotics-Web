@@ -25,7 +25,7 @@ function time() {
         "rforRobot.html",
         "storyTime.html",
         "art.html",
-        "game.html",
+        "tutorial.html",
         ""
     ];
     
