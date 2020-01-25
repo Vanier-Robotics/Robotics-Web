@@ -620,10 +620,23 @@ h2 {
 .art-bt {
 	position:absolute;
 	display:none;
+	font-size:10vmin;
+	filter: brightness(1);
+	animation : art-arrows-out 0.4s
 }
+.art-bt:hover {animation:art-arrows 0.4s; filter: brightness(50%);}
 .left-bt {left:0;}
-
 .right-bt {right:0;}
+
+
+@keyframes art-arrows {
+	0% {filter: brightness(1);}
+	100% {filter: brightness(50%);}
+}
+@keyframes art-arrows-out {
+	0% {filter: brightness(50%);}
+	100% {filter: brightness(1);}
+}
 
 /* Story Time Page */
 section{
