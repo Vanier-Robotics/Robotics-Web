@@ -509,9 +509,70 @@ to {margin-left: 0;}
 	background-repeat: no-repeat;
 	background-position: center;
 }
-#person-1 {
-	background-image: url(members/1.jpg);
+/*MENTORS*/
+#ashley-elaine-rankins {
+	background-image: url(members/mentors/Ashley-Elaine-Rankins-3.png);
 }
+
+#haritos-kavallos {
+	background-image: url(members/mentors/Haritos-Kavallos-3.png);
+}
+
+#leo-zhang {
+	background-image: url(members/mentors/Leo-Zhang-1.png);
+}
+
+#philip-may {
+	background-image: url(members/mentors/Phillip-May.jpg); 
+}
+
+#richard-mondou {
+	background-image: url(members/mentors/Wesley-McCallum-1.png);
+}
+
+/*CAPTAINS*/
+#vincent-messina {
+	background-image: url(members/captains/Vincent-Messina-3.png);
+}
+
+#philip-may {
+	background-image: url(members/mentors/Phillip-May.jpg);
+}
+
+#marcus-quintanilla {
+	background-image: url(members/captains/Marcus-Quintanilla-1.png);
+}
+
+#joshua-dascal {
+	background-image: url(members/captains/Joshua-Dascal-4.png);
+}
+
+#massimo-valentini {
+	background-image: url(members/captains/Massimo-Valentini-6.png);
+}
+
+#richard-li {
+	background-image: url(members/captains/Richard-Li-2.png);
+}
+
+#julie-tran {
+	background-image: url(members/captains/Julie-Tran-2.1.png);
+}
+
+#vanessa-siev {
+	background-image: url(members/captains/Vanessa-Siev-2.png);
+}
+
+#john-stathopoulos {
+	background-image: url(members/captains/JohnF-Stathopoulos-3.png);
+}
+
+#gloria-anastasopoulos {
+	background-image: url(members/captains/Gloria-Anastasopoulos-1.png);
+}
+
+
+
 .persontext {
 	text-align: justify;
 	display:none;
