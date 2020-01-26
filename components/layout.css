@@ -814,7 +814,7 @@ h2 {
 
 /* Vanier College Page */
 
-.parallax-1 {
+.parallax-vanier-college-1 {
 	background-image: url("../images/test.jpg");
 	height: 700px;
 	width: 100%;
@@ -824,8 +824,51 @@ h2 {
 	background-repeat: no-repeat;
 	background-size: cover;
 }
-.parallax-2 {
+.parallax-vanier-college-2 {
 	background-image: url("../images/test2.jpg");
+	height: 700px;
+	width: 100%;
+	border-radius: 10px;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+/* Flip2020 Page */
+
+.parallax-flip2020-1 {
+	background-image: url("../images/flip2020/Filip2020-1.png");
+	height: 700px;
+	width: 100%;
+	border-radius: 10px;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.parallax-flip2020-2 {
+	background-image: url("../images/flip2020/Filip2020-2.png");
+	height: 700px;
+	width: 100%;
+	border-radius: 10px;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.parallax-flip2020-3 {
+	background-image: url("../images/flip2020/Filip2020-3.png");
+	height: 700px;
+	width: 100%;
+	border-radius: 10px;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.parallax-flip2020-4 {
+	background-image: url("../images/flip2020/Filip2020-4.jpg");
 	height: 700px;
 	width: 100%;
 	border-radius: 10px;
