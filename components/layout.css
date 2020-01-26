@@ -686,6 +686,82 @@ to {margin-left: 0;}
 	background-image: url(members/programming/Caio-Silva-3.png);
 }
 
+/* KIOSK */
+
+#dylan-kantor {
+	background-image: url(members/kiosk/Dylan-Kantor-2.png);
+}
+
+#eden-berrebi {
+	background-image: url(members/kiosk/Eden-Berrebi-2.png);
+}
+
+#erika-talatinian {
+	background-image: url(members/kiosk/Erika-Talatinian.png);
+}
+
+#felipe-lazcano-kiosk {
+	background-image: url(members/kiosk/Felipe-Lazcano-3.png);
+}
+
+#franklin-mbah {
+	background-image: url(members/kiosk/Franklin-Mbah.jpg);
+}
+
+#john-stathopoulos-kiosk {
+	background-image: url(members/kiosk/Ioannis-Stathopoulos-3.png);
+}
+
+#izabel-liebmann {
+	background-image: url(members/kiosk/Izabel-Liebmann.jpg);
+}
+
+#joshua-dascal-kiosk {
+	background-image: url(members/kiosk/Joshua-Dascal-4.png);
+}
+
+#leonardo-fusser-kiosk {
+	background-image: url(members/kiosk/Leonardo-Fusser-2.png);
+}
+
+#noah-kestenbaum-kiosk {
+	background-image: url(members/kiosk/Noah-Kestenbaum-1.png);
+}
+
+#rudolph-conrad-hunter {
+	background-image: url(members/kiosk/Rudolph-Conrad-Hunter.png);
+}
+
+/* WEB */
+#ron-friedman {
+	background-image: url(members/web/Ron-Friedman.jpg);
+}
+
+#samy-rasmy-web {
+	background-image: url(members/web/Samy-Rasmy-1.png);
+}
+
+#svyatoslav-sklokin-web {
+	background-image: url(members/web/Svyatoslav-Sklokin.png);
+}
+
+#richard-li-web {
+	background-image: url(members/web/Richard-Li-2.png);
+}
+
+#david-muresan-web {
+	background-image: url(members/web/David-Muresan-1.png);
+}
+
+#romaissa-boukouna {
+	background-image: url(members/web/Romaissa-Boukouna.jpg);
+}
+
+#mykyta-bychkov {
+	background-image: url(members/web/Mykyta-Bychkov-5.png);
+}
+
+
 .persontext {
 	text-align: justify;
 	display:none;
