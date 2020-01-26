@@ -6,7 +6,6 @@
 	margin:auto;
 	overflow:hidden;
 	width:100%;
-	max-width:400px;
 	height:100%;
 	position: absolute;
 	top:0;
@@ -36,6 +35,7 @@
 	margin:0;
 	padding:0;
 	position:relative;
+	height:100%
 }
 #slider li {
 	width:100%;
@@ -76,14 +76,14 @@
 	width:300px;
 	height:60px;
 	position:relative;
-	bottom:75px;
+	top:0;
 	-moz-transition:all 0.3s ease-in-out;
 	-webkit-transition:all 0.3s ease-in-out;  
 }
 #slider .tooltip h1 {
 	font-family: "Trebuchet MS", Helvetica, sans-serif;
 	color:#fff;
-	font-size:24px;
+	font-size:4vmin;
 	font-weight:300;
 	line-height:60px;
 	padding:0 0 0 5px;
@@ -94,7 +94,7 @@
 #slider li#third:hover .tooltip, 
 #slider li#fourth:hover .tooltip, 
 #slider li#fifth:hover .tooltip {
-	bottom:0px;
+	top:-75px;
 }
 #slider:hover li, 
 #slider:hover .progress-bar {
@@ -114,14 +114,10 @@
 }
 
 /* IMAGES */
-img {
+.img {
+	display:block;
 	width:100%;
-	height:auto;
-	position: absolute;
-	top:0;
-	bottom:0;
-}
-img {
+	height:100%;
 	background-size: cover;
 	background-position: center;
 }
