@@ -815,7 +815,7 @@ h2 {
 /* Vanier College Page */
 
 .parallax-vanier-college-1 {
-	background-image: url("../images/test.jpg");
+	background-image: url("../images/vanier-college/Vanier-Page-1.jpg");
 	height: 700px;
 	width: 100%;
 	border-radius: 10px;
@@ -825,7 +825,27 @@ h2 {
 	background-size: cover;
 }
 .parallax-vanier-college-2 {
-	background-image: url("../images/test2.jpg");
+	background-image: url("../images/vanier-college/Vanier-Page-2.jpg");
+	height: 700px;
+	width: 100%;
+	border-radius: 10px;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.parallax-vanier-college-3 {
+	background-image: url("../images/vanier-college/Vanier-Page-3.jpg");
+	height: 700px;
+	width: 100%;
+	border-radius: 10px;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.parallax-vanier-college-4 {
+	background-image: url("../images/vanier-college/Vanier-Page-4.jpg");
 	height: 700px;
 	width: 100%;
 	border-radius: 10px;
