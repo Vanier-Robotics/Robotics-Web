@@ -645,6 +645,46 @@ to {margin-left: 0;}
 	background-image: url(members/build/Vincent-Messina-3.png);
 }
 
+/* PROGRAMMING */
+#david-muresan-programming {
+	background-image: url(members/programming/David-Muresan-1.png);
+}
+
+#philip-may-programming {
+	background-image: url(members/programming/Phillip-May.jpg);
+}
+
+#samy-rasmy-programming {
+	background-image: url(members/programming/Samy-Rasmy-1.png);
+}
+
+#jad-ashkar-programming {
+	background-image: url(members/programming/Jad-Ashkar-1.png);
+}
+
+#james-partsafas {
+	background-image: url(members/programming/James-Partsafas-2.png);
+}
+
+#felipe-lazcano-programming {
+	background-image: url(members/programming/Felipe-Lazcano-3.png);
+}
+
+#leonardo-fusser-programming {
+	background-image: url(members/programming/Leonardo-Fusser-2.png);
+}
+
+#svyatoslav-sklokin-programming {
+	background-image: url(members/programming/Svyatoslav-Sklokin.png);
+}
+
+#mohamed-ben-mekki-programming {
+	background-image: url(members/programming/Mohamed-Ben-Mekki-1.png);
+}
+
+#caio-silva-programming {
+	background-image: url(members/programming/Caio-Silva-3.png);
+}
 
 .persontext {
 	text-align: justify;
