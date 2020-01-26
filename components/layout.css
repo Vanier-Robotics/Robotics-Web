@@ -761,6 +761,18 @@ to {margin-left: 0;}
 	background-image: url(members/web/Mykyta-Bychkov-5.png);
 }
 
+/* JOURNALISM */
+#nicholas-katsis-journalism {
+	background-image: url(members/journalism/Nicholas-Katsis-1.png);
+}
+
+#erika-talatinian-journalism {
+	background-image: url(members/journalism/Erika-Talatinian.png);
+}
+
+#richard-li-journalism {
+	background-image: url(members/journalism/Richard-Li-2.png);
+}
 
 .persontext {
 	text-align: justify;
