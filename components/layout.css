@@ -552,6 +552,10 @@ to {margin-left: 0;}
 	background-image: url(members/captains/Richard-Li-2.png);
 }
 
+#ron-friedman {
+	background-image: url(members/web/Ron-Friedman.jpg);
+}
+
 #julie-tran {
 	background-image: url(members/captains/Julie-Tran-2.1.png);
 }
@@ -733,7 +737,7 @@ to {margin-left: 0;}
 }
 
 /* WEB */
-#ron-friedman {
+#ron-friedman-web {
 	background-image: url(members/web/Ron-Friedman.jpg);
 }
 
