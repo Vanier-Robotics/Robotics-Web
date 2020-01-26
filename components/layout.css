@@ -774,6 +774,24 @@ to {margin-left: 0;}
 	background-image: url(members/journalism/Richard-Li-2.png);
 }
 
+/* VIDEO */
+#gloria-anastasopoulos-video {
+	background-image: url(members/video/Gloria-Anastasopoulos-1.png);
+}
+
+#julie-tran {
+	background-image: url(members/video/Julie-Tran-2.1.png);
+}
+
+#massimo-valentini-video {
+	background-image: url(members/video/Massimo-Valentini-6.png);
+}
+
+#nicholas-katsis-video {
+	background-image: url(members/video/Nicholas-Katsis-1.png);
+}
+
+
 .persontext {
 	text-align: justify;
 	display:none;
