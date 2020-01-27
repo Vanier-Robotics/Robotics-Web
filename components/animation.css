@@ -49,6 +49,8 @@
 	100%{ left:100%; opacity:0; z-index:0; }
 }
 
+
+
 @-webkit-keyframes cycle {
 	0%  { left:0px; }
 	4%  { left:0px; }

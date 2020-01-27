@@ -71,6 +71,83 @@
 	-webkit-animation:cyclefive 25s linear infinite;		
 }
 
+#slider li.sixthanimation {
+	-moz-animation:cyclesix 25s linear infinite;
+	-webkit-animation:cyclesix 25s linear infinite;		
+}
+
+#slider li.seventhanimation {
+	-moz-animation:cyclefive 25s linear infinite;
+	-webkit-animation:cyclefive 25s linear infinite;		
+}
+
+#slider li.eigthanimation {
+	-moz-animation:cyclefive 25s linear infinite;
+	-webkit-animation:cyclefive 25s linear infinite;		
+}
+
+#slider li.ninethanimation {
+	-moz-animation:cyclefive 25s linear infinite;
+	-webkit-animation:cyclefive 25s linear infinite;		
+}
+
+#slider li.tenthanimation {
+	-moz-animation:cyclefive 25s linear infinite;
+	-webkit-animation:cyclefive 25s linear infinite;		
+}
+
+#slider li.eleventhanimation {
+	-moz-animation:cyclefive 25s linear infinite;
+	-webkit-animation:cyclefive 25s linear infinite;		
+}
+
+#slider li.twelvethanimation {
+	-moz-animation:cyclefive 25s linear infinite;
+	-webkit-animation:cyclefive 25s linear infinite;		
+}
+
+#slider li.thirteenthanimation {
+	-moz-animation:cyclefive 25s linear infinite;
+	-webkit-animation:cyclefive 25s linear infinite;		
+}
+
+#slider li.fourteenthanimation {
+	-moz-animation:cyclefive 25s linear infinite;
+	-webkit-animation:cyclefive 25s linear infinite;		
+}
+
+#slider li.fifteenthanimation {
+	-moz-animation:cyclefive 25s linear infinite;
+	-webkit-animation:cyclefive 25s linear infinite;		
+}
+
+#slider li.sixteenthanimation {
+	-moz-animation:cyclefive 25s linear infinite;
+	-webkit-animation:cyclefive 25s linear infinite;		
+}
+
+#slider li.seventeenthanimation {
+	-moz-animation:cyclefive 25s linear infinite;
+	-webkit-animation:cyclefive 25s linear infinite;		
+}
+
+#slider li.eighteenthanimation {
+	-moz-animation:cyclefive 25s linear infinite;
+	-webkit-animation:cyclefive 25s linear infinite;		
+}
+
+#slider li.nineteenthanimation {
+	-moz-animation:cyclefive 25s linear infinite;
+	-webkit-animation:cyclefive 25s linear infinite;		
+}
+
+#slider li.twentiethanimation {
+	-moz-animation:cyclefive 25s linear infinite;
+	-webkit-animation:cyclefive 25s linear infinite;		
+}
+
+
+
 #slider .tooltip {
 	background:rgba(0,0,0,0.7);
 	width:300px;
@@ -93,7 +170,22 @@
 #slider li#second:hover .tooltip, 
 #slider li#third:hover .tooltip, 
 #slider li#fourth:hover .tooltip, 
-#slider li#fifth:hover .tooltip {
+#slider li#fifth:hover .tooltip
+#slider li#sixth:hover .tooltip,
+#slider li#seventh:hover .tooltip,
+#slider li#eighth:hover .tooltip,
+#slider li#nineth:hover .tooltip,
+#slider li#tenth:hover .tooltip,
+#slider li#eleventh:hover .tooltip,
+#slider li#twelveth:hover .tooltip,
+#slider li#thirteenth:hover .tooltip,
+#slider li#fourteenth:hover .tooltip,
+#slider li#fifteenth:hover .tooltip,
+#slider li#sixteenth:hover .tooltip,
+#slider li#seventeenth:hover .tooltip,
+#slider li#eighteenth:hover .tooltip,
+#slider li#nineteenth:hover .tooltip,
+#slider li#twentieth:hover .tooltip {
 	top:-75px;
 }
 #slider:hover li, 
@@ -122,17 +214,78 @@
 	background-position: center;
 }
 #img1 {
-	background-image: url("./images/img_1.jpg");
+	background-image: url("../images/art/video/1.JPG");
 }
 #img2 {
-	background-image: url("./images/img_2.jpg");
+	background-image: url("../images/art/video/2.png");
 }
 #img3 {
-	background-image: url("./images/img_3.jpg");
+	background-image: url("../images/art/video/3.JPG");
 }
 #img4 {
-	background-image: url("./images/img_4.jpg");
+	background-image: url("../images/art/video/4.png");
 }
 #img5 {
-	background-image: url("./images/img_5.png");
+	background-image: url("../images/art/video/5.JPG");
 }
+
+#img6 {
+	background-image: url("../images/art/video/6.png");
+}
+
+#img7 {
+	background-image: url("../images/art/video/7.JPG");
+}
+
+#img8 {
+	background-image: url("../images/art/video/8.png");
+}
+
+#img9 {
+	background-image: url("../images/art/video/9.JPG");
+}
+
+#img10 {
+	background-image: url("../images/art/video/10.png");
+}
+
+#img11 {
+	background-image: url("../images/art/video/11.JPG");
+}
+
+#img12 {
+	background-image: url("../images/art/video/12.png");
+}
+
+#img13 {
+	background-image: url("../images/art/video/13.jpg");
+}
+
+#img14 {
+	background-image: url("../images/art/video/14.png");
+}
+
+#img15 {
+	background-image: url("../images/art/video/15.jpg");
+}
+
+#img16 {
+	background-image: url("../images/art/video/16.png");
+}
+
+#img17 {
+	background-image: url("../images/art/video/17.jpg");
+}
+
+#img18 {
+	background-image: url("../images/art/video/18.png");
+}
+
+#img19 {
+	background-image: url("../images/art/video/19.jpg");
+}
+
+#img20 {
+	background-image: url("../images/art/video/20.png");
+}
+

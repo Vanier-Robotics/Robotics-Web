@@ -913,6 +913,11 @@ h2 {
 	flex:1;
 	position:relative;
 }
+
+.art-images-2 {
+	flex: 1;
+	position: relative;
+}
 .fixedimage {
 	margin:auto;
 	width:70%;
