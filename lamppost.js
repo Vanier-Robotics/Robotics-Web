@@ -24,7 +24,7 @@ function time() {
         "flip2020.html",
         "rforRobot.html",
         "storyTime.html",
-        "art.html",
+        "../art/index.html",
         "tutorial.html",
         ""
     ];

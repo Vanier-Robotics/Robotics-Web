@@ -5,7 +5,7 @@ color:black;
 font-size:30px;
 }
 /* Landing Page */
-html, body, #___gatsby, #gatsby-focus-wrapper, #main1, #cubes {
+html, body, #main1, #cubes {
     height:100%;
     margin:0;
     padding:0;
@@ -237,7 +237,7 @@ html {
 	height:100%;
 	width:100%;
 }
-html, body, #layout, #___gatsby, #gatsby-focus-wrapper {
+html, body, #layout {
 	height:100%;
 	overflow: hidden;
 	
@@ -900,39 +900,6 @@ h2 {
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
-}
-
-/* Art Page */
-
-.artstrip {
-	width:100%;
-	height: 30vmax;
-	display: flex;
-}
-.art-images {
-	flex:1;
-	position:relative;
-}
-
-.art-images-2 {
-	flex: 1;
-	position: relative;
-}
-.fixedimage {
-	margin:auto;
-	width:70%;
-	height:70%;
-	position: absolute;
-	top: 0; left: 0; bottom: 0; right: 0;
-}
-#grey-art {
-	background-color:rgba(0, 0, 0, 0.6);
-}
-#example1 {
-	background-image: url(../components/images/example1.jpg);
-	background-size: cover;
-	background-position: center;
-	background-repeat: no-repeat;
 }
 
 /* R For Robot Page */
