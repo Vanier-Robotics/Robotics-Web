@@ -606,7 +606,7 @@ to {margin-left: 0;}
 	background-image: url(members/build/Jad-Ashkar-1.png);
 }
 
-#james-partsafas {
+#james-partsafas-build {
 	background-image: url(members/build/James-Partsafas-2.png);
 }
 
@@ -804,6 +804,9 @@ to {margin-left: 0;}
 	background-image: url(members/video/Nicholas-Katsis-1.png);
 }
 
+#david-abraham {
+	background-image: url(members/video/david-abraham.png);
+}
 
 .persontext {
 	text-align: justify;
