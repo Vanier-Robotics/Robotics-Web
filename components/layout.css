@@ -499,6 +499,11 @@ to {margin-left: 0;}
 .person:hover h2,.person:hover .persontext {
 	display:block;
 }
+
+.persontext {
+	font-size: 15px;
+}
+
 /*MEMBERS*/
 .personimage {
 	position: absolute;
